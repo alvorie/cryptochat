@@ -1,0 +1,27 @@
+.cryptoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  height: 130px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  img {
+    height: 40%;
+  }
+
+  transition: transform ease-in-out 0.1s;
+}
+
+.cryptoCard:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(71, 93, 144, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(71, 93, 144, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(71, 93, 144, 0.2);
+}
+
+.cryptoCardTitle {
+  font-weight: 500;
+}
